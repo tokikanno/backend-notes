@@ -26,7 +26,7 @@
 
 ## 容易維護/協作
 * 除非你的專案規模非常的小、不然你一定會遇到協作的問題
-* 在通常的情形下、以下這些名詞可以幫助你增加你的程式的可維護性
+* 在通常的情形下、下面這些東西都可以幫助你增加你的程式的可維護性
   * 文件 ([OpenAPI/Swagger](https://petstore.swagger.io/) 了解一下? :-P)
-  * type hint
+  * type hint (請配合閱讀下一條連結)
   * [Refactoring Guru](https://refactoring.guru/refactoring/techniques) :-P
