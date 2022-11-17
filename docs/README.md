@@ -9,3 +9,8 @@
 * 簡單介紹這個基礎知識是什麼
 * 它對於後端開發為甚麼重要
 * 如果你想更進一步學習、有哪些進階的補充教材的連結或是關鍵字你可以參考的
+
+# 補充說明
+
+* 文章中大部分的程式碼會以 python 撰寫
+* 歡迎至 [github](https://github.com/tokikanno/backend-notes/issues) 發 issue 討論、訂正
