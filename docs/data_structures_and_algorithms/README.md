@@ -32,7 +32,7 @@ USERS = [
 def find_user(user_id: str) -> Optional[dict]:
     for u in USERS:
         if u['id'] == user_id:
-            found_user = u
+            return u
 ```
 
 那麼 find_user 這個 function 操作的效率如何呢?
@@ -62,7 +62,7 @@ def find_user(user_id: str) -> Optional[dict]:
 
 **時間複雜度為 `O(1)`**
 
-因為在 dictionay (has table) 中、找到特定值的這個操作的時間複雜度為 O(1)
+因為在 dictionay (hash table) 中、找到特定值的這個操作的時間複雜度為 O(1)
 
 **空間複雜度為 `O(n)`**
 
