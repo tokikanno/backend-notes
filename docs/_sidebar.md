@@ -4,3 +4,5 @@
   * [後端工程師的基礎自我要求](basic_requirements.md)
 * 基礎技能
   * [資料結構/演算法](data_structures_and_algorithms/)
+* 效能優化
+  * [理解各種操作消耗的時間]
