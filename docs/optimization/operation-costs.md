@@ -28,7 +28,7 @@
 |CPU L1/L2 cache|1-10ns|
 |某些比較 heavy 的 CPU 指令|1-10ns|
 |CPU L3 cache|10-100ns|
-|向系統發出 kernel 層級的呼叫(僅呼叫時間，不含時間底層執行時間)|100-1000ns|
+|向系統發出 kernel 層級的呼叫(僅呼叫時間，不含實際底層執行時間)|100-1000ns|
 |Thread context switching|1-10us|
 |memcpy for 64KB data|1-10us|
 |A http request through nginx|~50us|
@@ -46,9 +46,3 @@
 |TLS handshake|250ms~500ms|
 |美西到新加坡網路傳輸|100-1000ms|
 |從SSD中循序讀取1GB資料|100-1000ms|
-
-
-
-
-
-
