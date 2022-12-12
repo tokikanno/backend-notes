@@ -9,3 +9,4 @@
   * [理解各種操作消耗的時間](optimization/operation-costs.md)
   * [快取(cache)](optimization/cache.md)
   * [多工(multitasking)](optimization/multitasking.md)
+  * [我聽説 XX 語言很慢...](optimization/does-language-speed-matter.md)
