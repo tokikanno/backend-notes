@@ -10,3 +10,4 @@
   * [快取(cache)](optimization/cache.md)
   * [多工(multitasking)](optimization/multitasking.md)
   * [我聽説 XX 語言很慢...](optimization/does-language-speed-matter.md)
+  * [批次存取](optimization/batch-query.md)
