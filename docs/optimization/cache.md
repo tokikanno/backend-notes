@@ -27,7 +27,7 @@
 如果是單筆資料大小超過 cache server 主記憶體大小，你可能需要先問問自己你的資料為何會這麼大。
 一般正常 cache server 並不是設計用來儲存這麼大型的資料的（而是相對多筆的小資料）。
 
-如果你的需要 cache 的小資料因為某些原因（例如: 你的 user 有像 fb/twitter 這麼多）
+如果你的需要 cache 的小資料因為某些原因（例如: 你的 user 有像 fb/twitter 這麼多）加起來會超過單一台 cache server 的主記憶體大小。
 那麼你可能需要的使用 redis cluster/twmemproxy 之類的解決方案來使用多個 cache server 組成一個大的 cache cluster
 
 # 這類 cache cluster 是如何分配資料該去哪一台主機的?
