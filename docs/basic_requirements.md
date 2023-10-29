@@ -27,7 +27,7 @@
 ## 容易維護/協作
 * 除非你的專案規模非常的小、不然你一定會遇到協作的問題
 * 在通常的情形下、下面這些東西都可以幫助你增加你的程式的可維護性
-  * 文件 e.g.: [OpenAPI/Swagger](https://petstore.swagger.io/) / [FastAPI](https://fastapi.tiangolo.com/)
+  * 文件 e.g.: [OpenAPI/Swagger](https://petstore.swagger.io/) / [FastAPI](https://fastapi.tiangolo.com/) 這類標準的 API 文件機制都可以很好的幫助你和其它合作的人溝通
   * type hint - 對於 python / javascript 等弱型別語言、讓人確實的知道你的參數/回傳值是什麽會比讓人瞎猜的好
-  * comments - 雖然有一説寫的好的程式碼是不需要任何注解的、但是一來我們不見得能寫到這種程度、二來太過複雜的機制有個提示會比讓你的同事看了半天還無法頓悟會更加節省時間
+  * comments - 雖然有一説寫的好的程式碼是不需要任何注解的、但是一來我們不見得能寫到這種程度、二來太過複雜的機制有個提示會比讓你的合作夥伴看了半天還無法頓悟會更加節省時間
   * 良好的程式碼習慣，建議閲讀: [Refactoring Guru](https://refactoring.guru/refactoring/techniques)
